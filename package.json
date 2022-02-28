@@ -1,6 +1,6 @@
 {
   "name": "LS-Lab4",
-  "description": "my first jenkins test app_",
+  "description": "my first jenkins test app",
   "version": "0.0.3",
   "private": true,
   "dependencies": {
