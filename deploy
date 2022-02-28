@@ -1,0 +1,9 @@
+#!/bin/sh
+ssh jenkins@10.1.1.203 <<EOF
+cd /var/lib/jenkins/ls4
+git pull
+npm install --production
+pm2 start lab4.js 
+pm2 restart all
+exit
+EOF
